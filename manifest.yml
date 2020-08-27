@@ -1,0 +1,11 @@
+applications:
+- name: spring-music
+  memory: 1024MB
+  instances: 1
+  # Make this unique by adding your name, initials or somesuch
+  host: spring-music-test124
+  domain: cfapps.io
+  #path: build/lib/bluegreen-0.0.1-SNAPSHOT.war   # Gradle
+  #path: target/bluegreen-0.0.1-SNAPSHOT.war   # Maven
+  path: pre-built/spring-music.war
+
