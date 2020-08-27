@@ -1,0 +1,9 @@
+---
+applications:
+- name: spring-music
+  instances: 1
+  memory: 1024m
+  host: spring-music-capg123
+  domain: cfapps.io
+  path: pre-built/spring-music.war
+  
